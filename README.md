@@ -3,7 +3,7 @@
 Moderner, mehrseitiger Website-Entwurf für die **Kohlschein Baumaschinenhandel GmbH**
 (Kobelco Bagger · NPK Anbaugeräte · Gebrauchtmaschinen) aus Wien.
 
-🔗 **Live-Vorschau:** _(GitHub Pages – Link siehe Repository-Einstellungen → Pages)_
+🔗 **Live-Vorschau:** https://juhasz2aron22-prog.github.io/kohlschein-konzept/
 
 ## Inhalt / Funktionen
 
