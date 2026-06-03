@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="de-AT" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Kohlschein Baumaschinenhandel GmbH · Bagger &amp; Anbaugeräte aus Wien</title>
+  <meta name="description" content="Kontakt zur Kohlschein Baumaschinenhandel GmbH in Wien: Linzer Straße 459, 1140 Wien. Beratung zu Kobelco Baggern, NPK Anbaugeräten und Service — meist noch am selben Tag.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a class="nav__logo" href="index.html" aria-label="Kohlschein Startseite">
+        <span class="nav__mark" aria-hidden="true"></span>KOHLSCHEIN
+      </a>
+      <nav class="nav__links" aria-label="Hauptmenü">
+        <a class="nav__link" href="index.html">Start</a>
+        <a class="nav__link" href="bagger.html">Bagger</a>
+        <a class="nav__link" href="anbaugeraete.html">Anbaugeräte</a>
+        <a class="nav__link" href="service.html">Service</a>
+        <a class="nav__link" href="gebrauchtmaschinen.html">Gebrauchtmaschinen</a>
+        <a class="nav__link" href="ueber-uns.html">Über uns</a>
+      </nav>
+      <a class="nav__cta" href="kontakt.html">Kontakt</a>
+      <button class="nav__burger" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ PAGEHEAD ============================ -->
+    <section class="pagehead">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Brotkrümel">
+          <a href="index.html">Start</a>
+          <span aria-hidden="true">/</span>
+          <span>Kontakt</span>
+        </nav>
+        <h1 class="pagehead__title">Reden wir<br>über Stahl.</h1>
+        <p class="pagehead__lede">
+          Egal ob Neumaschine, Anbaugerät, Ersatzteil oder ein Service-Einsatz auf der Baustelle —
+          schreiben Sie uns oder rufen Sie an. Bei Kohlschein landen Sie direkt bei Menschen,
+          die Maschinen verstehen, und meist gibt es noch am selben Tag eine Antwort.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================== KONTAKT (Formular + Daten) ====================== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="split">
+
+          <!-- LINKS: gestyltes (statisches) Kontaktformular -->
+          <div class="split__body">
+            <span class="eyebrow" data-reveal>Anfrage senden</span>
+            <h2 class="split__title" data-reveal>Sagen Sie uns,<br>was ansteht.</h2>
+            <p class="split__text" data-reveal>
+              Beschreiben Sie kurz Ihr Vorhaben — Baggerklasse, Einsatz, gewünschtes Anbaugerät
+              oder das Anliegen. Je konkreter, desto schneller können wir konkret zurückkommen.
+            </p>
+
+            <form class="form" data-reveal-group novalidate>
+              <div class="form__row">
+                <div class="form__field" data-reveal>
+                  <label class="form__label" for="f-name">Name</label>
+                  <input class="form__input" id="f-name" name="name" type="text" autocomplete="name" placeholder="Vor- und Nachname">
+                </div>
+                <div class="form__field" data-reveal>
+                  <label class="form__label" for="f-firma">Firma</label>
+                  <input class="form__input" id="f-firma" name="firma" type="text" autocomplete="organization" placeholder="Unternehmen (optional)">
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="form__field" data-reveal>
+                  <label class="form__label" for="f-mail">E-Mail</label>
+                  <input class="form__input" id="f-mail" name="email" type="email" autocomplete="email" placeholder="name@firma.at">
+                </div>
+                <div class="form__field" data-reveal>
+                  <label class="form__label" for="f-tel">Telefon</label>
+                  <input class="form__input" id="f-tel" name="telefon" type="tel" autocomplete="tel" placeholder="+43 …">
+                </div>
+              </div>
+
+              <div class="form__field" data-reveal>
+                <label class="form__label" for="f-betreff">Betreff</label>
+                <div class="form__select-wrap">
+                  <select class="form__input form__select" id="f-betreff" name="betreff">
+                    <option value="bagger">Kobelco Bagger</option>
+                    <option value="anbaugeraete">NPK Anbaugeräte</option>
+                    <option value="service">Service &amp; Ersatzteile</option>
+                    <option value="gebraucht">Gebrauchtmaschinen</option>
+                    <option value="sonstiges">Allgemeine Anfrage</option>
+                  </select>
+                  <svg class="form__select-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                </div>
+              </div>
+
+              <div class="form__field" data-reveal>
+                <label class="form__label" for="f-nachricht">Nachricht</label>
+                <textarea class="form__input form__textarea" id="f-nachricht" name="nachricht" rows="5" placeholder="Worum geht es? Maschinenklasse, Einsatzgebiet, Termin …"></textarea>
+              </div>
+
+              <div class="form__actions" data-reveal>
+                <button class="btn btn--primary btn--lg" type="submit">
+                  Anfrage absenden
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </button>
+                <p class="form__note">Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben zur Bearbeitung der Anfrage zu.</p>
+              </div>
+            </form>
+          </div>
+
+          <!-- RECHTS: Kontaktdaten + Lage-Visual -->
+          <div class="split__body">
+            <span class="eyebrow" data-reveal>Direkt erreichbar</span>
+            <h2 class="split__title" data-reveal>Wien, 1230.<br>Kurze Wege.</h2>
+
+            <div class="split__media" data-reveal>
+              <img class="media__img" src="assets/img/kobelco-1.jpg" alt="Kobelco Hydraulikbagger im Einsatz" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="split__media-tag">KOHLSCHEIN / WIEN</span>
+            </div>
+
+            <ul class="contact-list" data-reveal-group>
+              <li class="contact-item" data-reveal>
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+                </span>
+                <div class="contact-item__body">
+                  <span class="contact-item__label">Adresse</span>
+                  <p class="contact-item__value">Kohlschein Baumaschinenhandel GmbH<br>Linzer Straße 459<br>1140 Wien, Österreich</p>
+                </div>
+              </li>
+
+              <li class="contact-item" data-reveal>
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L20 13l2 5v0a2 2 0 0 1-2 2 16 16 0 0 1-15-15 2 2 0 0 1 2-1Z"/></svg>
+                </span>
+                <div class="contact-item__body">
+                  <span class="contact-item__label">Telefon</span>
+                  <p class="contact-item__value"><a href="tel:+4319791446">+43 1 9791446</a></p>
+                </div>
+              </li>
+
+              <li class="contact-item" data-reveal>
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                </span>
+                <div class="contact-item__body">
+                  <span class="contact-item__label">E-Mail</span>
+                  <p class="contact-item__value"><a href="mailto:info@kohlschein.at">info@kohlschein.at</a></p>
+                </div>
+              </li>
+
+              <li class="contact-item" data-reveal>
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+                </span>
+                <div class="contact-item__body">
+                  <span class="contact-item__label">Öffnungszeiten</span>
+                  <p class="contact-item__value">Mo–Fr 07:00–17:00 Uhr<br>Werkstatt &amp; Ersatzteillager<br>Sa/So geschlossen · Service nach Vereinbarung</p>
+                </div>
+              </li>
+            </ul>
+
+            <!-- gestalteter Karten-/Lage-Platzhalter (kein echtes Embed) -->
+            <div class="split__media contact-map" data-reveal>
+              <img class="media__img" src="assets/img/vienna-site.jpg" alt="Standort Kohlschein in Wien" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="split__media-tag">1230 WIEN · INDUSTRIESTRASSE 12</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ IMPRESSUM ============================ -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="section__head" data-reveal>
+          <span class="eyebrow">Rechtliches</span>
+          <h2 class="section__title">Impressum.</h2>
+          <p class="section__lede">
+            Offenlegung gemäß § 5 ECG und § 25 MedienG. Verantwortlich für Inhalt und Betrieb dieser Website.
+          </p>
+        </div>
+
+        <div class="cards" data-reveal-group>
+          <div class="card" data-reveal>
+            <div class="card__body">
+              <span class="card__index" style="position:static;color:var(--accent)">UNTERNEHMEN</span>
+              <h3 class="card__title">Kohlschein Baumaschinenhandel GmbH</h3>
+              <p class="card__text">
+                Linzer Straße 459<br>
+                1140 Wien, Österreich<br>
+                Tel.: +43 1 9791446<br>
+                E-Mail: info@kohlschein.at
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-reveal>
+            <div class="card__body">
+              <span class="card__index" style="position:static;color:var(--accent)">REGISTER</span>
+              <h3 class="card__title">Rechtliche Daten</h3>
+              <p class="card__text">
+                Firmenbuchnummer: FN 370552 f<br>
+                Firmenbuchgericht: Handelsgericht Wien<br>
+                UID-Nummer: ATU66819945<br>
+                Rechtsform: Gesellschaft m.b.H.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-reveal>
+            <div class="card__body">
+              <span class="card__index" style="position:static;color:var(--accent)">VERTRETUNG</span>
+              <h3 class="card__title">Geschäftsführung</h3>
+              <p class="card__text">
+                Michael Jonke<br>
+                Stefan Jonke<br><br>
+                Mitglied der WKÖ &amp; des Verbandes<br>
+                Österreichischer Baumaschinenhändler (MAWEV).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="impressum__note" data-reveal>
+          Unternehmensgegenstand: Maschinenvertrieb und Service. Anwendbares Recht: österreichisches
+          Recht (Gewerbeordnung). Sämtliche genannten Marken (Kobelco, NPK, Okada u. a.) sind Eigentum
+          der jeweiligen Rechteinhaber. Vollständige Angaben finden Sie im
+          <a href="impressum.html" style="color:var(--accent);text-decoration:underline">Impressum</a>
+          und in der <a href="datenschutz.html" style="color:var(--accent);text-decoration:underline">Datenschutzerklärung</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ CTA-BAND ============================ -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="cta-band" data-reveal>
+          <div class="cta-band__text">
+            <h2 class="cta-band__title">Lieber<br>kurz anrufen?</h2>
+            <p class="cta-band__sub">
+              Ein Anruf spart oft drei E-Mails. Wir nehmen uns Zeit für Ihre Baustelle.
+            </p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn--primary btn--lg" href="tel:+4319791446">
+              +43 1 9791446
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="mailto:info@kohlschein.at">info@kohlschein.at</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner wrap">
+      <div class="footer__brand">
+        <a class="nav__logo" href="index.html"><span class="nav__mark" aria-hidden="true"></span>KOHLSCHEIN</a>
+        <p class="footer__tag">Bagger. Anbaugeräte. Präzision aus Wien seit 1981.</p>
+      </div>
+      <nav class="footer__col"><h4>Maschinen</h4><a href="bagger.html">Kobelco Bagger</a><a href="anbaugeraete.html">NPK Anbaugeräte</a><a href="gebrauchtmaschinen.html">Gebrauchtmaschinen</a></nav>
+      <nav class="footer__col"><h4>Unternehmen</h4><a href="service.html">Service &amp; Ersatzteile</a><a href="ueber-uns.html">Über uns</a><a href="kontakt.html">Kontakt</a></nav>
+      <div class="footer__col"><h4>Kontakt</h4><p>Kohlschein Baumaschinenhandel GmbH<br>Linzer Straße 459<br>1140 Wien, Österreich</p><p><a href="tel:+4319791446">+43 1 9791446</a><br><a href="mailto:info@kohlschein.at">info@kohlschein.at</a></p></div>
+    </div>
+    <div class="footer__bottom wrap">
+      <span>© 2026 Kohlschein Baumaschinenhandel GmbH</span>
+      <span class="footer__legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span>
+    </div>
+  </footer>
+
+  <style>
+    /* Seitenlokale Komponenten — bauen auf den Design-Tokens auf, keine globalen Neudefinitionen */
+    .form{margin-top:34px;display:flex;flex-direction:column;gap:20px}
+    .form__row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .form__field{display:flex;flex-direction:column;gap:9px}
+    .form__label{
+      font-family:"JetBrains Mono",monospace;font-size:.74rem;
+      letter-spacing:.12em;text-transform:uppercase;color:var(--text-dim);
+    }
+    .form__input{
+      width:100%;font-family:"Inter",sans-serif;font-size:1rem;color:var(--text);
+      background:var(--surface);border:1px solid var(--line);border-radius:11px;
+      padding:14px 16px;
+      transition:border-color .25s var(--ease),box-shadow .25s var(--ease),background .25s var(--ease);
+    }
+    .form__input::placeholder{color:var(--text-faint)}
+    .form__input:hover{border-color:rgba(10,85,173,.35)}
+    .form__input:focus{
+      outline:none;background:#fff;
+      border-color:var(--accent);
+      box-shadow:0 0 0 3px rgba(10,85,173,.18);
+    }
+    .form__textarea{resize:vertical;min-height:130px;line-height:1.6}
+    .form__select-wrap{position:relative}
+    .form__select{
+      appearance:none;-webkit-appearance:none;-moz-appearance:none;
+      padding-right:46px;cursor:pointer;
+    }
+    .form__select-icon{
+      position:absolute;right:16px;top:50%;transform:translateY(-50%);
+      width:20px;height:20px;color:var(--accent);pointer-events:none;
+    }
+    .form__actions{
+      margin-top:6px;display:flex;flex-direction:column;gap:14px;align-items:flex-start;
+    }
+    .form__note{font-size:.84rem;color:var(--text-faint);max-width:48ch;line-height:1.5}
+
+    /* Kontaktliste */
+    .contact-list{margin-top:30px;display:flex;flex-direction:column;gap:2px;
+      border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--line)}
+    .contact-item{
+      display:flex;gap:18px;align-items:flex-start;
+      background:var(--surface);padding:22px clamp(18px,2.4vw,26px);
+      transition:background .3s var(--ease);
+    }
+    .contact-item:hover{background:var(--surface-2)}
+    .contact-item__icon{
+      flex:none;width:44px;height:44px;border-radius:11px;
+      display:flex;align-items:center;justify-content:center;
+      background:rgba(10,85,173,.10);color:var(--accent);
+      border:1px solid rgba(10,85,173,.20);
+    }
+    .contact-item__icon svg{width:22px;height:22px}
+    .contact-item__label{
+      font-family:"JetBrains Mono",monospace;font-size:.72rem;
+      letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);
+      display:block;margin-bottom:5px;
+    }
+    .contact-item__value{color:var(--text);font-size:1rem;line-height:1.55}
+    .contact-item__value a{color:var(--text);transition:color .2s var(--ease)}
+    .contact-item__value a:hover{color:var(--accent)}
+
+    .contact-map{margin-top:24px;aspect-ratio:16/9}
+    .contact-map svg{width:78%}
+
+    .impressum__note{
+      margin-top:clamp(28px,3.5vw,42px);max-width:80ch;
+      color:var(--text-faint);font-size:.92rem;line-height:1.7;
+    }
+
+    @media (max-width:560px){
+      .form__row{grid-template-columns:1fr}
+      .form__actions .btn{width:100%;justify-content:center}
+    }
+  </style>
+
+</body>
+</html>

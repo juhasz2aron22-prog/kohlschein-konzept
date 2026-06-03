@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="de-AT" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gebrauchtmaschinen — Geprüfte Bagger &amp; Anbaugeräte | Kohlschein Wien</title>
+  <meta name="description" content="Geprüfte Gebrauchtmaschinen von Kohlschein: Kobelco Bagger, Okada &amp; NPK Anbaugeräte mit dokumentierter Historie. Werkstattgewartet, einsatzbereit, Inzahlungnahme möglich.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/data/machines.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a class="nav__logo" href="index.html" aria-label="Kohlschein Startseite">
+        <span class="nav__mark" aria-hidden="true"></span>KOHLSCHEIN
+      </a>
+      <nav class="nav__links" aria-label="Hauptmenü">
+        <a class="nav__link" href="index.html">Start</a>
+        <a class="nav__link" href="bagger.html">Bagger</a>
+        <a class="nav__link" href="anbaugeraete.html">Anbaugeräte</a>
+        <a class="nav__link" href="service.html">Service</a>
+        <a class="nav__link is-active" href="gebrauchtmaschinen.html">Gebrauchtmaschinen</a>
+        <a class="nav__link" href="ueber-uns.html">Über uns</a>
+      </nav>
+      <a class="nav__cta" href="kontakt.html">Kontakt</a>
+      <button class="nav__burger" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ PAGEHEAD ============================ -->
+    <section class="pagehead">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Brotkrümelnavigation">
+          <a href="index.html">Start</a><span aria-hidden="true">/</span><span>Gebrauchtmaschinen</span>
+        </nav>
+        <h1 class="pagehead__title" data-reveal>Gebraucht.<br>Geprüft. Bereit.</h1>
+        <p class="pagehead__lede" data-reveal>
+          Sorgfältig geprüfte Gebrauchtbagger und Anbaugeräte mit dokumentierter Historie —
+          gewartet in unserer Wiener Werkstatt und einsatzbereit übergeben. Der aktuelle Bestand
+          wechselt laufend. Die folgende Auswahl gibt einen Eindruck; fragen Sie uns nach Ihrer
+          Wunschklasse.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ MARQUEE ============================ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item">GEPRÜFT</span>
+        <span class="marquee__item">DOKUMENTIERT</span>
+        <span class="marquee__item">GEWARTET</span>
+        <span class="marquee__item">EINSATZBEREIT</span>
+        <span class="marquee__item">INZAHLUNGNAHME</span>
+        <span class="marquee__item">SOFORT VERFÜGBAR</span>
+        <span class="marquee__item">GEPRÜFT</span>
+        <span class="marquee__item">DOKUMENTIERT</span>
+        <span class="marquee__item">GEWARTET</span>
+        <span class="marquee__item">EINSATZBEREIT</span>
+        <span class="marquee__item">INZAHLUNGNAHME</span>
+        <span class="marquee__item">SOFORT VERFÜGBAR</span>
+      </div>
+    </div>
+
+    <!-- ============================ STATS ============================ -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="stats" data-reveal-group>
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="26">26<span class="stat__suffix">Stk.</span></span>
+            <span class="stat__label">Bagger &amp; Anbaugeräte</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="35">35<span class="stat__suffix">t</span></span>
+            <span class="stat__label">bis Einsatzgewicht</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num" data-count="15">15<span class="stat__suffix">Marken</span></span>
+            <span class="stat__label">u. a. Kobelco, Liebherr, Komatsu</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num">Ja<span class="stat__suffix">möglich</span></span>
+            <span class="stat__label">Inzahlungnahme</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FILTER + CARDS-GRID ===================== -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="section__head" data-reveal>
+          <span class="eyebrow">Aktueller Bestand</span>
+          <h2 class="section__title">Maschinen mit<br>Vergangenheit.</h2>
+          <p class="section__lede">
+            Baujahr, Betriebsstunden, Gewicht und Ausstattung sind je Maschine transparent angegeben.
+            Weitere Bilder und Details gern auf Anfrage — Zwischenverkauf vorbehalten.
+          </p>
+        </div>
+
+        <!-- Funktionierender Filter -->
+        <div class="filterbar" data-machine-filter data-reveal>
+          <div class="filter-group" data-filter-key="kategorie">
+            <span class="filter-group__label">Kategorie</span>
+            <div class="filter-group__chips">
+              <button type="button" class="chip chip--filter is-active" data-value="all">Alle</button>
+              <button type="button" class="chip chip--filter" data-value="bagger">Bagger</button>
+              <button type="button" class="chip chip--filter" data-value="anbau">Anbaugeräte</button>
+            </div>
+          </div>
+          <div class="filter-group" data-filter-key="weight">
+            <span class="filter-group__label">Gewicht</span>
+            <div class="filter-group__chips">
+              <button type="button" class="chip chip--filter is-active" data-value="all">Alle</button>
+              <button type="button" class="chip chip--filter" data-value="0-5">bis 5 t</button>
+              <button type="button" class="chip chip--filter" data-value="5-15">5–15 t</button>
+              <button type="button" class="chip chip--filter" data-value="15-999">über 15 t</button>
+            </div>
+          </div>
+          <div class="filter-group" data-filter-key="type">
+            <span class="filter-group__label">Bauart</span>
+            <div class="filter-group__chips">
+              <button type="button" class="chip chip--filter is-active" data-value="all">Alle</button>
+              <button type="button" class="chip chip--filter" data-value="kette">Kettenbagger</button>
+              <button type="button" class="chip chip--filter" data-value="kurzheck">Kurzheck</button>
+              <button type="button" class="chip chip--filter" data-value="mobil">Mobilbagger</button>
+              <button type="button" class="chip chip--filter" data-value="mini">Minibagger</button>
+            </div>
+          </div>
+          <div class="filter-group" data-filter-key="year">
+            <span class="filter-group__label">Baujahr</span>
+            <div class="filter-group__chips">
+              <button type="button" class="chip chip--filter is-active" data-value="all">Alle</button>
+              <button type="button" class="chip chip--filter" data-value="2015">ab 2015</button>
+              <button type="button" class="chip chip--filter" data-value="2018">ab 2018</button>
+              <button type="button" class="chip chip--filter" data-value="2021">ab 2021</button>
+            </div>
+          </div>
+          <p class="filter-count" data-filter-count aria-live="polite"></p>
+        </div>
+
+        <!-- Die Karten werden zur Laufzeit aus assets/data/machines.js erzeugt
+             (ohne Index-Badge). Neue Maschinen bitte dort pflegen.
+             Die folgenden statischen Karten sind nur der Fallback ohne JavaScript. -->
+        <div class="cards" data-reveal-group data-machine-grid>
+
+          <!-- 01 — Kobelco SK85 -->
+          <article class="card" data-reveal data-type="kurzheck" data-weight="8.5" data-year="2021">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/kobelco-1.jpg" alt="Kobelco Hydraulikbagger im Einsatz" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">01 / KOBELCO</span>
+              <span class="card__spec">Kurzheck · 8,5 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK85MSR-7</h3>
+              <p class="card__text">
+                Kurzheck-Mobilbagger, Baujahr 2021, ein Vorbesitzer. Lückenlos gewartet,
+                Hydraulik frisch geprüft. Schnellwechsler und drei Löffel im Lieferumfang.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2021</span>
+                <span class="chip">2.140 Bh</span>
+                <span class="chip">Sehr gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 — Kobelco SK17 Mini -->
+          <article class="card" data-reveal data-type="mini" data-weight="1.7" data-year="2019">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/mini-excavator.jpg" alt="Minibagger im innerstädtischen Einsatz" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">02 / KOBELCO</span>
+              <span class="card__spec">Minibagger · 1,7 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK17SR-3</h3>
+              <p class="card__text">
+                Kompakter Minibagger für beengte Baustellen und den Garten- und Landschaftsbau.
+                Gummiketten 2024 neu, Verstellausleger, geringer Verbrauch.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2019</span>
+                <span class="chip">3.480 Bh</span>
+                <span class="chip">Gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 — Kobelco SK210 -->
+          <article class="card" data-reveal data-type="kette" data-weight="21" data-year="2020">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/kobelco-2.jpg" alt="Kobelco Hydraulikbagger von der Seite" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">03 / KOBELCO</span>
+              <span class="card__spec">Kettenbagger · 21 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK210LC-10</h3>
+              <p class="card__text">
+                Robuster 21-Tonnen-Kettenbagger mit iNDr-Kühlung. Tieflöffel und Grabenräumlöffel
+                dabei, Zentralschmierung ab Werk. Ideal für Tiefbau und Erdaushub.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2020</span>
+                <span class="chip">5.910 Bh</span>
+                <span class="chip">Gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 04 — Kobelco SK350DLC High-Reach -->
+          <article class="card" data-reveal data-type="abbruch" data-weight="35" data-year="2019">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/demolition-1.jpg" alt="High-Reach Abbruchbagger beim Rückbau" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">04 / KOBELCO</span>
+              <span class="card__spec">High-Reach · 35 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK350DLC High-Reach</h3>
+              <p class="card__text">
+                Abbruchbagger mit High-Reach-Ausleger für den kontrollierten Rückbau in die Höhe.
+                Verschleißteile geprüft, Hydraulik für schwere Anbaugeräte ausgelegt.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2019</span>
+                <span class="chip">6.480 Bh</span>
+                <span class="chip">Gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 05 — Kobelco SK230 Abbruchausführung -->
+          <article class="card" data-reveal data-type="abbruch" data-weight="22" data-year="2021">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/demolition-2.jpg" alt="Abbruchbagger mit Anbauwerkzeug im Einsatz" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">05 / KOBELCO</span>
+              <span class="card__spec">Abbruchbagger · 22 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK230 Abbruchausführung</h3>
+              <p class="card__text">
+                22-Tonnen-Bagger in Abbruchausführung mit verstärkter Kabine und Zusatzhydraulik
+                für Greifer und Pulverisierer. Anbauwerkzeug auf Wunsch passend dazu.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2021</span>
+                <span class="chip">4.760 Bh</span>
+                <span class="chip">Gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 06 — Kobelco SK140 -->
+          <article class="card" data-reveal data-type="kurzheck" data-weight="14" data-year="2022">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/midi-excavator.jpg" alt="Kurzheckbagger im Einsatz" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">06 / KOBELCO</span>
+              <span class="card__spec">Kurzheck · 14 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK140SRLC-7</h3>
+              <p class="card__text">
+                Kurzheck-Kettenbagger im beliebten 14-Tonnen-Segment. Laufwerk frisch vermessen,
+                Stiel und Ausleger ohne Schweißstellen. Powertilt vorbereitet.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2022</span>
+                <span class="chip">1.760 Bh</span>
+                <span class="chip">Sehr gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 07 — NPK Pulverisierer -->
+          <article class="card" data-reveal data-type="gross" data-weight="30" data-year="2020">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/big-excavator.jpg" alt="Großbagger auf einem Erdhaufen" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">07 / KOBELCO</span>
+              <span class="card__spec">Großbagger · 30 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK300LC-10</h3>
+              <p class="card__text">
+                30-Tonnen-Großbagger für Erdbau und Massenaushub. Laufwerk und Drehwerk geprüft,
+                iNDr-Kühlung, hohe Reißkraft. Tieflöffel und Felslöffel im Lieferumfang.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2020</span>
+                <span class="chip">6.120 Bh</span>
+                <span class="chip">Gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 08 — Kobelco SK30 Mini -->
+          <article class="card" data-reveal data-type="mini" data-weight="3" data-year="2018">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/kobelco-3.jpg" alt="Kobelco Bagger auf einer Baustelle" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">08 / KOBELCO</span>
+              <span class="card__spec">Minibagger · 3 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK30SR-6</h3>
+              <p class="card__text">
+                Wendiger 3-Tonnen-Minibagger mit Nullschwenk. Beliebt im Leitungs- und Kanalbau.
+                Pilotsteuerung, zwei Hydraulikkreise, neuer Sitz.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2018</span>
+                <span class="chip">4.220 Bh</span>
+                <span class="chip">Befriedigend</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 09 — Okada Tiltrotator-Löffelpaket -->
+          <article class="card" data-reveal data-type="kette" data-weight="26" data-year="2021">
+            <div class="card__media">
+              <img class="media__img" src="assets/img/hero-kobelco.jpg" alt="Kobelco SK260 Hydraulikbagger auf einer Baustelle" loading="lazy" decoding="async">
+              <span class="media__shade" aria-hidden="true"></span>
+              <span class="card__index">09 / KOBELCO</span>
+              <span class="card__spec">Kettenbagger · 26 t</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Kobelco SK260LC-10</h3>
+              <p class="card__text">
+                26-Tonnen-Kettenbagger mit hoher Standsicherheit und Schnellwechsler.
+                Tieflöffel, Grabenräumlöffel und Böschungslöffel im Paket dabei.
+              </p>
+              <div class="card__chips">
+                <span class="chip">2021</span>
+                <span class="chip">3.940 Bh</span>
+                <span class="chip">Sehr gut</span>
+                <span class="chip">Preis a. A.</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="filter-empty" data-filter-empty hidden>
+          Keine Maschine entspricht dieser Auswahl.
+          <button type="button" class="filter-reset" data-filter-reset>Filter zurücksetzen</button>
+        </p>
+
+        <p class="section__lede" data-reveal style="margin-top:clamp(32px,4vw,52px)">
+          Alle Angaben ohne Gewähr. Zwischenverkauf vorbehalten. Betriebsstunden und Zustand
+          zum Zeitpunkt der Aufnahme. Maschinen werden geprüft und einsatzbereit übergeben —
+          auf Wunsch mit kurzer Gewährleistung.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== MASCHINE VERKAUFEN (Ankauf) ===================== -->
+    <section class="section section--light" id="verkaufen">
+      <div class="wrap">
+        <div class="split">
+          <div class="split__body">
+            <span class="eyebrow" data-reveal>Ankauf &amp; Inzahlungnahme</span>
+            <h2 class="section__title" data-reveal>Verkaufen Sie<br>Ihre Maschine.</h2>
+            <p class="section__lede" data-reveal>
+              Sie möchten Ihren Bagger oder Ihr Anbaugerät abgeben? Wir kaufen gepflegte
+              Maschinen an und nehmen sie beim Neukauf in Zahlung — mit fairer Bewertung
+              und schneller, unkomplizierter Abwicklung in Wien.
+            </p>
+            <ul class="sell-points" data-reveal-group>
+              <li data-reveal><strong>Faire Bewertung</strong> auf Basis aktueller Marktpreise</li>
+              <li data-reveal><strong>Schnelle Rückmeldung</strong> — meist innerhalb von 48 Stunden</li>
+              <li data-reveal><strong>Abholung möglich</strong> in ganz Ostösterreich</li>
+              <li data-reveal><strong>Inzahlungnahme</strong> beim Kauf einer Neu- oder Gebrauchtmaschine</li>
+            </ul>
+          </div>
+
+          <div class="split__body">
+            <form class="sell-form" data-reveal action="#" method="post" novalidate
+                  onsubmit="event.preventDefault();this.reset();var m=this.querySelector('.sell-form__done');if(m){m.hidden=false;}">
+              <div class="sell-field sell-field--row">
+                <label>Maschinentyp
+                  <select name="typ" required>
+                    <option value="">Bitte wählen</option>
+                    <option>Minibagger</option>
+                    <option>Kurzheckbagger</option>
+                    <option>Kettenbagger</option>
+                    <option>Mobilbagger</option>
+                    <option>Abbruchbagger</option>
+                    <option>Anbaugerät</option>
+                    <option>Sonstiges</option>
+                  </select>
+                </label>
+                <label>Baujahr
+                  <input type="number" name="baujahr" min="1980" max="2026" placeholder="z. B. 2020">
+                </label>
+              </div>
+              <div class="sell-field sell-field--row">
+                <label>Hersteller &amp; Modell
+                  <input type="text" name="modell" placeholder="z. B. Kobelco SK210LC-10">
+                </label>
+                <label>Betriebsstunden
+                  <input type="number" name="stunden" min="0" placeholder="z. B. 4500">
+                </label>
+              </div>
+              <div class="sell-field">
+                <label>Zustand
+                  <select name="zustand">
+                    <option value="">Bitte wählen</option>
+                    <option>Sehr gut</option>
+                    <option>Gut</option>
+                    <option>Befriedigend</option>
+                    <option>Reparaturbedürftig</option>
+                  </select>
+                </label>
+              </div>
+              <div class="sell-field sell-field--row">
+                <label>Ihr Name
+                  <input type="text" name="name" required placeholder="Vor- und Nachname">
+                </label>
+                <label>Telefon oder E-Mail
+                  <input type="text" name="kontakt" required placeholder="So erreichen wir Sie">
+                </label>
+              </div>
+              <div class="sell-field">
+                <label>Nachricht <span class="sell-field__opt">(optional)</span>
+                  <textarea name="nachricht" rows="3" placeholder="Ausstattung, Anbaugeräte, Besonderheiten …"></textarea>
+                </label>
+              </div>
+              <button type="submit" class="btn btn--primary btn--lg">
+                Angebot anfordern
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+              <p class="sell-form__done" role="status" hidden>
+                Danke! Ihre Anfrage ist eingegangen — wir melden uns in Kürze mit einer Einschätzung.
+              </p>
+              <p class="sell-form__note">
+                Konzept-Formular ohne Datenübertragung. Alternativ: <a href="tel:+4319791446">+43 1 9791446</a>
+                oder <a href="mailto:info@kohlschein.at">info@kohlschein.at</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== OKADA-PARTNER (Split) ===================== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="split">
+          <div class="split__media" data-reveal>
+            <img class="media__img" src="assets/img/grapple.jpg" alt="Okada Sortiergreifer am Bagger" loading="lazy" decoding="async">
+            <span class="media__shade" aria-hidden="true"></span>
+            <span class="split__media-tag">OKADA / PARTNER</span>
+          </div>
+          <div class="split__body">
+            <span class="eyebrow" data-reveal>Partner-Anbaugeräte</span>
+            <h2 class="split__title" data-reveal>Okada.<br>Greifen. Brechen.</h2>
+            <p class="split__text" data-reveal>
+              Neben NPK führen wir Anbaugeräte von Okada — bewährte japanische Technik für
+              Abbruch, Sortierung und Materialhandling. Hydraulikhämmer, Sortiergreifer und
+              Pulverisierer, neu wie gebraucht, passgenau auf Ihren Träger abgestimmt.
+            </p>
+            <ul class="split__list" data-reveal-group>
+              <li data-reveal>Greifer mit Endlosrotation für präzises Handling</li>
+              <li data-reveal>Hydraulikhämmer in allen gängigen Trägerklassen</li>
+              <li data-reveal>Anbau, Verschlauchung und Einweisung aus einer Hand</li>
+            </ul>
+            <div class="split__actions" data-reveal>
+              <a class="btn btn--ghost" href="anbaugeraete.html">Anbaugeräte ansehen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INZAHLUNGNAHME (Split rev) ===================== -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="split split--rev">
+          <div class="split__media" data-reveal>
+            <img class="media__img" src="assets/img/transport.jpg" alt="Bagger-Transport auf dem Tieflader" loading="lazy" decoding="async">
+            <span class="media__shade" aria-hidden="true"></span>
+            <span class="split__media-tag">ALT GEGEN NEU</span>
+          </div>
+          <div class="split__body">
+            <span class="eyebrow" data-reveal>Inzahlungnahme</span>
+            <h2 class="split__title" data-reveal>Ihre Alte<br>zählt mit.</h2>
+            <p class="split__text" data-reveal>
+              Sie wollen aufrüsten? Wir nehmen Ihre bestehende Maschine fair in Zahlung —
+              unabhängig von Marke und Baujahr. Eine kurze Begutachtung genügt, dann erhalten
+              Sie ein transparentes Angebot, das direkt auf Ihre Wunschmaschine angerechnet wird.
+            </p>
+            <p class="split__text" data-reveal>
+              So bleibt das Kapital im Unternehmen und der Umstieg planbar. Sprechen Sie uns an —
+              auch zu Finanzierung und Leasing.
+            </p>
+            <div class="split__actions" data-reveal>
+              <a class="btn btn--primary" href="kontakt.html">
+                Maschine bewerten lassen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CTA-BAND ============================ -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="cta-band" data-reveal>
+          <div class="cta-band__text">
+            <h2 class="cta-band__title">Wunschmaschine<br>nicht dabei?</h2>
+            <p class="cta-band__sub">
+              Der Bestand wechselt laufend. Sagen Sie uns Klasse, Baujahr und Budget —
+              wir melden uns, sobald die passende Maschine bei uns einläuft.
+            </p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn--primary btn--lg" href="kontakt.html">
+              Suchauftrag aufgeben
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="tel:+4319791446">+43 1 9791446</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner wrap">
+      <div class="footer__brand">
+        <a class="nav__logo" href="index.html"><span class="nav__mark" aria-hidden="true"></span>KOHLSCHEIN</a>
+        <p class="footer__tag">Bagger. Anbaugeräte. Präzision aus Wien seit 1981.</p>
+      </div>
+      <nav class="footer__col"><h4>Maschinen</h4><a href="bagger.html">Kobelco Bagger</a><a href="anbaugeraete.html">NPK Anbaugeräte</a><a href="gebrauchtmaschinen.html">Gebrauchtmaschinen</a></nav>
+      <nav class="footer__col"><h4>Unternehmen</h4><a href="service.html">Service &amp; Ersatzteile</a><a href="ueber-uns.html">Über uns</a><a href="kontakt.html">Kontakt</a></nav>
+      <div class="footer__col"><h4>Kontakt</h4><p>Kohlschein Baumaschinenhandel GmbH<br>Linzer Straße 459<br>1140 Wien, Österreich</p><p><a href="tel:+4319791446">+43 1 9791446</a><br><a href="mailto:info@kohlschein.at">info@kohlschein.at</a></p></div>
+    </div>
+    <div class="footer__bottom wrap">
+      <span>© 2026 Kohlschein Baumaschinenhandel GmbH</span>
+      <span class="footer__legal"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span>
+    </div>
+  </footer>
+</body>
+</html>

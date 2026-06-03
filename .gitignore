@@ -1,0 +1,6 @@
+# Entwickler-/Hilfsdateien (nicht Teil der Website)
+.dev-server.js
+.claude/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+KOHLSCHEIN – WEBSITE-VORSCHAU (Konzept / Entwurf)
+====================================================
+
+SO ÖFFNEN SIE DIE VORSCHAU
+--------------------------
+Einfach die Datei  index.html  doppelklicken — sie öffnet sich im Browser.
+Kein Server, keine Installation nötig. (Internetverbindung empfohlen, damit
+Schriften und Animationen vollständig laden.)
+
+Empfohlen: Google Chrome, Microsoft Edge oder Firefox, aktuelle Version.
+
+
+WAS SIE SEHEN
+-------------
+Ein moderner, sachlicher Website-Entwurf für Kohlschein mit:
+- Startseite, Bagger (Kobelco), Anbaugeräte (NPK), Service, Über uns, Kontakt
+- GEBRAUCHTMASCHINEN: der aktuelle Bestand mit ECHTEN Maschinen, Fotos,
+  Baujahr, Betriebsstunden, Gewicht und Preisen (26 Einträge, Stand der
+  Übernahme). Filter nach Kategorie / Bauart / Gewicht / Baujahr.
+- Klick auf eine Maschine öffnet ein DETAILFENSTER mit allen Daten,
+  Beschreibung, Preis und Buttons „Anfragen“ / „Anrufen“.
+- Eine Anfrage füllt das Kontaktformular automatisch mit der gewählten Maschine.
+
+
+BEREITS ENTHALTEN
+-----------------
+- Echte Kontaktdaten (Adresse, Telefon, E-Mail) der Kohlschein
+  Baumaschinenhandel GmbH.
+- Impressum (impressum.html) und Datenschutzerklärung (datenschutz.html)
+  mit den echten Unternehmensdaten — verlinkt im Footer jeder Seite.
+
+NOCH OFFEN VOR DEM ECHTEN START (GO-LIVE)
+-----------------------------------------
+1. Impressum & Datenschutz vor Veröffentlichung kurz rechtlich prüfen lassen
+   (Inhalte sind mit echten Daten vorbereitet, ersetzen aber keine Rechtsberatung).
+2. Kontakt-/Anfrageformular: zeigt eine Bestätigung an, versendet aber noch
+   keine E-Mail. Für den Echtbetrieb wird ein Formular-Versand eingerichtet.
+3. Domain & Hosting: für die Veröffentlichung unter einer eigenen Adresse.
+4. Pflege der Gebrauchtmaschinen: die Liste ist ein Stand der Übernahme; für
+   den laufenden Betrieb wird die Aktualisierung/Anbindung abgestimmt.
+5. Für datensparsamen Betrieb können Schriften und Bibliotheken lokal
+   eingebunden (selbst gehostet) werden.
+
+Bei Fragen oder Änderungswünschen jederzeit gern melden.
